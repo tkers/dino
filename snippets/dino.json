@@ -1,0 +1,8 @@
+{
+  ".source.arduino": {
+    "Sketch": {
+      "prefix": "ino",
+      "body": "void setup() {\n  $1\n}\n\nvoid loop() {\n  $2\n}\n$3"
+    }
+  }
+}
