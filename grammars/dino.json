@@ -1,0 +1,22 @@
+{
+  "fileTypes": ["ino"],
+  "name": "Arduino Sketch",
+  "scopeName": "source.arduino",
+  "patterns": [
+    {
+      "include": "source.cpp"
+    },
+    {
+      "match": "\\b(INPUT|OUTPUT|INPUT_PULLUP|LED_BUILTIN|HIGH|LOW)\\b",
+      "name": "constant.language.arduino"
+    },
+    {
+      "match": "\\b(Serial)\\b",
+      "name": "support.class.arduino"
+    },
+    {
+      "match": "\\b(pinMode|digitalRead|digitalWrite|analogRead|analogWrite)\\b",
+      "name": "support.function.arduino"
+    }
+  ]
+}
