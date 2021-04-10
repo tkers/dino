@@ -4,7 +4,7 @@
   "description": "A delightful Arduino package for Atom 🦖",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
   "repository": "https://github.com/tkers/dino.git",
-  "main": "./lib/dino",
+  "main": "./lib/main",
   "keywords": [
     "arduino"
   ],

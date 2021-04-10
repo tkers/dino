@@ -1,0 +1,14 @@
+{
+  "fqbn": {
+    "title": "FQBN",
+    "description": "Fully Qualified Board Name",
+    "type": "string",
+    "default": "arduino:avr:uno"
+  },
+  "port": {
+    "title": "Port",
+    "description": "The port your board is connected to (used for uploading)",
+    "type": "string",
+    "default": "/dev/xxxx"
+  }
+}
