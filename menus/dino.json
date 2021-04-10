@@ -1,0 +1,26 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Dino",
+          "submenu": [
+            {
+              "label": "Compile sketch",
+              "command": "dino:compile-sketch"
+            },
+            {
+              "label": "Upload sketch",
+              "command": "dino:upload-sketch"
+            },
+            {
+              "label": "Run sketch",
+              "command": "dino:run-sketch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
