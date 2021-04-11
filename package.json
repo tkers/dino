@@ -18,5 +18,8 @@
         "^1.0.0": "consumeStatusBar"
       }
     }
+  },
+  "dependencies": {
+    "atom-select-list": "^0.8.0"
   }
 }
