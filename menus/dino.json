@@ -17,6 +17,10 @@
             {
               "label": "Run sketch",
               "command": "dino:run-sketch"
+            },
+            {
+              "label": "Show board selector",
+              "command": "dino:show-board-selector"
             }
           ]
         }
