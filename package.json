@@ -1,6 +1,6 @@
 {
   "name": "dino",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A delightful Arduino package for Atom 🦖",
   "author": "Tijn Kersjes <tijn@divbyzero.nl>",
   "repository": "https://github.com/tkers/dino.git",
