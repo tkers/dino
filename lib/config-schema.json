@@ -1,0 +1,22 @@
+{
+  "enableTile": {
+    "title": "Show status tile",
+    "description": "Display the connected Arduino board in the status bar.",
+    "type": "boolean",
+    "default": true
+  },
+  "tileAction": {
+    "title": "Status tile action",
+    "description": "Define what happens when clicking the status bar tile. A right click will bring up the board selector view.",
+    "type": "string",
+    "default": "RUN",
+    "enum": [
+      { "value": "OFF", "description": "nothing" },
+      { "value": "COMPILE", "description": "compile" },
+      {
+        "value": "RUN",
+        "description": "compile & upload"
+      }
+    ]
+  }
+}
